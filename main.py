@@ -18,12 +18,21 @@ class Panda:
 
 panda1 = Panda("white","Domodoma","Yes, and from rarest family","male",15)
 panda2 = Panda("black-white","DomoBora","No, have a lot of his kind","female",123412)
+panda3 = Panda("black","HoroBoro","No, have a lot of his kind","female",123412231)
+panda4 = Panda("yellow","Colora","Tes, almost get extinction","female",16)
 
 print(Panda.information(panda1))
 print(Panda.is_rarea(panda1))
 print("#"*24)
 print(Panda.information(panda2))
 print(Panda.is_rarea(panda2))
+print("#"*24)
+print(Panda.information(panda3))
+print(Panda.is_rarea(panda3))
+print("#"*24)
+print(Panda.information(panda4))
+print(Panda.is_rarea(panda4))
+
 
 
 
