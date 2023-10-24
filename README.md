@@ -6,4 +6,5 @@
 - 2 Methods
 
 
-### Create 4 instances of the class Panda , print 1 attribute value,  and call the two methods on each instance. 
+### Create 4 instances of the class Panda , print 1 attribute value,
+#  and call the two methods on each instance. 
