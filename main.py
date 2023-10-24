@@ -20,8 +20,10 @@ panda4 = Panda("Qinling panda","China",2000,"male")
 
 
 print(f"Panda age is:{panda1.CalculateAge()}")
+print(panda1.age,"--",panda1.yearBirth)
 print(panda1.__str__())
 print(f"Panda age is:{panda2.CalculateAge()}")
+print(panda2.Type,"--",panda2.HomeNation)
 print(panda2.__str__())
 print(f"Panda age is:{panda3.CalculateAge()}")
 print(panda3.__str__())
