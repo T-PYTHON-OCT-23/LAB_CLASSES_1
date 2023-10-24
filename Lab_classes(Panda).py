@@ -18,11 +18,20 @@ class Panda:
 
 Panda1 = Panda("Ailuropoda melanoleuca"," 6 feet long","Big","Southwest China")
 Panda2 = Panda("Ailurus fulgens", " 22 to 24.6 inch "," Small","Eastern Himalayas")
+Panda3 = Panda("Ailuropoda melanoleuca qinlingensis", " 6 feet long"," Big","China")
+Panda4= Panda("Ailuropoda baconi", "5 feet long"," Big","South China")
+
+
 
 #Reading Attributes
 print(Panda1.name, Panda1.length, Panda1.size , Panda1.country)
 print(Panda2.name, Panda2.length, Panda2.size , Panda2.country)
-
+print(Panda3.name, Panda3.length, Panda3.size , Panda3.country)
+print(Panda4.name, Panda4.length, Panda4.size , Panda4.country)
 #Calling methods
 print(Panda1.first_behavior())
+print(Panda4.first_behavior())
+
 print(Panda2.second_behavior())
+print(Panda3.second_behavior())
+
