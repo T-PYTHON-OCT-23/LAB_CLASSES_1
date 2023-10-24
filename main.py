@@ -19,8 +19,8 @@ class Panda:
     
     
     def show_details(self,info):
-        self.info=info
-        for k,v in self.info.items():
+        
+        for k,v in info.items():
             print(f"{k} is {v}")
 
 
@@ -70,4 +70,3 @@ pand3_info()
 print("-"*20)
 
 panda4_info()
-
